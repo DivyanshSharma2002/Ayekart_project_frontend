@@ -9,9 +9,11 @@ module.exports = {
         'custom': '0px 0px 7.06px 0px rgba(0, 0, 0, 0.12)',
       },
       screens: {
-        'xs':'344px',
-        'sm': '750px',
+        'xxs':'340px',
+        'xs': "500px",
+        'sm': '700px',
         'md': '850px',
+        'nm':'1112px',
         'lg': '1430px',
            
       },

@@ -14,7 +14,7 @@ import ClaimExpense from "./Pages/ClaimExpense";
 function App() {
   return (
     <div className="flex flex-row min-h-screen">
-      <div className="bg-[#E1DFDF] lg:w-[296px] min-h-[1024px] md:w-[200px] sm:w-0"></div>
+      <div className="bg-[#E1DFDF] lg:w-[296px] min-h-[1024px] nm:w-[200px] md:w-0"></div>
       <div className="flex flex-col flex-grow">
         <div className="bg-[#E1DFDF] lg:h-[81px] max-w-full sm:h-[60px]"></div>
         <div className="flex-grow p-4 overflow-auto">

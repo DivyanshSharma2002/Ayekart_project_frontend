@@ -2,7 +2,7 @@ import React from 'react';
 
 function ClaimExpense() {
   return (
-    <div className="flex flex-col p-4 pr-10 pl-10">
+    <div className="flex flex-col sm:p-4 xxs:p-0 pr-10 pl-10">
       <div>
         <h1 className="text-center font-[700] text-2xl leading-loose">Expense Reimbursement Form</h1>
         <p className="font-[600] text-gray-600 text-center">
@@ -13,12 +13,12 @@ function ClaimExpense() {
       <form className="w-full flex flex-col mt-14  item-center ">
         <div className="flex flex-row items-start flex-wrap">
           <div className="mb-4 mr-10">
-            <label className="font-[700] mr-2">Employee Name:</label>
-            <input type="text" className="border-[#959292] border-b-[1px] flex-grow" />
+            <label className="font-[700] ">Employee Name:</label>
+            <input type="text" className="border-[#959292] border-b-[1px] flex-grow w-[150px]" />
           </div>
           <div className="mb-4">
-            <label className="font-[700] mr-2">Employee ID:</label>
-            <input type="text" className="border-b border-[#959292] flex-grow" />
+            <label className="font-[700] ">Employee ID:</label>
+            <input type="text" className="border-b border-[#959292] flex-grow w-[150px]" />
           </div>
         </div>
 
@@ -76,11 +76,11 @@ function ClaimExpense() {
         <div className="flex mt-10 flex-wrap ">
         <div className='min-w-[30%] mr-4'>
             <label className="font-[700] mr-2">Approval’s Name:</label>
-            <input type="text" className="border-b border-[#959292] " />
+            <input type="text" className="border-b border-[#959292] w-[150px]" />
           </div>
           <div className='min-w-[30%] mr-4'>
             <label className="font-[700] mr-2">Approval’s Sig:</label>
-            <input type="text" className="border-b border-[#959292] " />
+            <input type="text" className="border-b border-[#959292] w-[150px]" />
           </div>
           <div className='min-w-[30%] mr-4'>
             <label for="attach_file" className='font-[700] mr-2'>Date:</label>

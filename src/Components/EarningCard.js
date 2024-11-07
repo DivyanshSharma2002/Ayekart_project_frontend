@@ -5,7 +5,7 @@ function EarningCard({monthdata,month}) {
   return (
     <div className=''>
 
-               <div className='bg-[#FAFAFA] m-10 min-h-[300px] rounded-md border-[0.4px] border-b-0 border-[#BFB6B6] flex flex-col justify-between'>
+               <div className='bg-[#FAFAFA] mt-10 min-h-[300px] rounded-md border-[0.4px] border-b-0 border-[#BFB6B6] flex flex-col justify-between'>
                       <h1 className='text-center font-[600] mt-3'>{month}</h1>   
                       <div className='flex justify-between pl-5 pr-5'>
                         <h1 className='text-[#665566]  font-[600] '>Gross Pay</h1>
@@ -16,7 +16,7 @@ function EarningCard({monthdata,month}) {
                         <h className=' font-[700]'>{monthdata.Reimburse}</h>
                       </div> 
                       <div className='flex justify-between pl-5 pr-5'>
-                        <h1 className='text-[#665566] text-sm font-[600] '>Deductions</h1>
+                        <h1 className='text-[#665566]  font-[600] '>Deductions</h1>
                         <h1 className=' font-[700]'>{monthdata.deductions}</h1>
                       </div> 
                       <div className='flex justify-between pl-5 pr-5'>
